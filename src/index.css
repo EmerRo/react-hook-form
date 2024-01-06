@@ -1,0 +1,86 @@
+body{
+  background: #101010;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+label{
+  display: block;
+}
+input, select{
+  width: 100%;
+}
+span{
+  display: block;
+  color:  orange;
+  font: small;
+  font-size: 15px;
+}
+.formulario{
+  background-color: #212F3C ;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px ;
+  border-radius: 12px;
+}
+
+.tex{
+  text-align: center;
+  font-family: cursive;
+  line-height: 1.5; 
+}
+
+
+select {
+  margin: 8px;
+}
+
+
+.checkbox-wrapper input[type="checkbox"] {
+  margin-right: 2.5em; 
+
+  
+}
+.checkbox-wrapper {
+
+
+  display: flex;
+  text-align: start;
+  justify-content: start;
+  padding-top: 10px;
+  
+}
+.sp{
+  padding-bottom: 10px;
+}
+ button{
+ 
+  /* margin-left: 80px; */
+  margin-left: 30%;
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+
+}
+button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
